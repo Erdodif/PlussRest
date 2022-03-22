@@ -8,4 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class Animals extends Model
 {
     use HasFactory;
+
+    public $fillable = ["name"];
+    protected $visible = ["id","name"];
 }

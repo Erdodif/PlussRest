@@ -15,4 +15,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::apiResource('Animals',AnimalsController::class);
+Route::apiResource('/animals',AnimalsController::class);
