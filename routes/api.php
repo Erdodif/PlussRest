@@ -15,4 +15,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::apiResource('/animals',AnimalsController::class);
+Route::middleware('cors')->apiResource('/animals',AnimalsController::class);
